@@ -1,0 +1,11 @@
+# https://www.youtube.com/watch?v=CzAyaSolZjY
+# Dockerize FastAPI project like a pro - Step-by-step Tutorial
+
+# 1. Create virtual environment
+python3 -m venv env
+
+# 2. Activate the virtual environment
+source env/bin/activate
+
+# 3. Install FastAPI and Uvicorn
+pip install fastapi uvicorn

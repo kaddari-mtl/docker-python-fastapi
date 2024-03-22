@@ -12,5 +12,11 @@ pip install fastapi uvicorn
 
 # 4. Create main.py
 
-# 5. run uvicorn
+# 5. Run uvicorn
 uvicorn main:app --reload --port=8000 --host=0.0.0.0
+
+# 6. Go to the Swagger
+http://127.0.0.1:8000/docs
+
+# 7. Save the dependancies
+pip freeze > requirements.txt

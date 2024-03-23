@@ -23,3 +23,6 @@ pip freeze > requirements.txt
 
 # 8. Run docker-compose
 docker compose up --build
+
+# 9. Add hot reload and re-run on each change
+docker compose up --build
